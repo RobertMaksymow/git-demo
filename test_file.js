@@ -1,3 +1,8 @@
 const name = "Rob";
+const nickname = "Max";
 
-console.log("hello " + name)
+const greeting = function (){
+	console.log("hello " + name + ' aka ' + nickname)
+}
+
+greeting();
