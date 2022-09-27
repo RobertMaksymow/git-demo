@@ -1,3 +1,7 @@
 const name = "Rob";
 
-console.log("hello " + name)
+const greeting = function (){
+	console.log("hello " + name)
+}
+
+greeting();
